@@ -145,7 +145,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         'Collective\Html\HtmlServiceProvider',
-
+        Jenssegers\Mongodb\MongodbServiceProvider::class,
     ],
 
     /*
@@ -196,7 +196,7 @@ return [
         'View'      => Illuminate\Support\Facades\View::class,
         'Form' => 'Collective\Html\FormFacade',
         'Html' => 'Collective\Html\HtmlFacade',
-
+        'Moloquent'       => 'Jenssegers\Mongodb\Model',
     ],
 
 ];

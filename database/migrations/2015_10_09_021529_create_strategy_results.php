@@ -17,9 +17,16 @@ class CreateStrategyResults extends Migration
             $table->increments('id');
             $table->integer('wins');
             $table->integer('losses');
+            $table->integer('pushes');
             $table->integer('doubleCount');
-            $table->integer('winlose');
+            $table->integer('aggregate_wins');
+            $table->double('winlose');
             $table->string('random');
+            $table->double('insert_cards');
+            $table->integer('hands');
+            $table->double('insert_strategy');
+            $table->double('simulation');
+            $table->timestamps();
         });
     }
 

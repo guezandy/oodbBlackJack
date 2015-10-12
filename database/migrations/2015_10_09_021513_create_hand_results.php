@@ -19,9 +19,11 @@ class CreateHandResults extends Migration
             $table->string('youstop');
             $table->string('results');
             $table->string('dealerstart');
+            $table->string('move');
             $table->string('dealerstop');
             $table->boolean('didDouble');
             $table->integer('session_token');
+            $table->timestamps();            
         });
 
     }

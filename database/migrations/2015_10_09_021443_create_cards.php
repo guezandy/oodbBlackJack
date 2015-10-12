@@ -18,6 +18,8 @@ class CreateCards extends Migration
             $table->string('value');
             $table->string('suit');
             $table->integer('session_token');
+            $table->timestamps();
+           
         });
     }
 

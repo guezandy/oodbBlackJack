@@ -20,6 +20,7 @@ class CreateHand extends Migration
             $table->string('card1');
             $table->string('card2');
             $table->integer('session_token');
+            $table->timestamps();            
         });
     }
 

@@ -10,13 +10,14 @@ class StrategyResult extends Model {
      *
      * @var array
      */
-     protected $fillable = ['wins', 'losses', 'doubleCount',
-                          'winlose', 'random'];
+     protected $fillable = ['wins', 'losses', 'pushes', 'aggregate_wins', 'doubleCount', 'hands',
+                          'winlose', 'random', 'insert_cards', 'insert_strategy',
+                           'simulation', 'id'];
 
     /**
      * The attributes excluded from the model's JSON form.
      *
      * @var array
      */
-    protected $hidden = ['id'];
+    protected $hidden = [];
 }

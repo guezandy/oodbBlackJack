@@ -20,6 +20,8 @@ class CreateStrategy extends Migration
             $table->string('card2');
             $table->string('move');
             $table->integer('session_token');
+            $table->timestamps();
+
         });
     }
 

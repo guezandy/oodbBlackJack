@@ -12,7 +12,7 @@ use App\StrategyResult;
 use App\Strategy;
 
 
-class BlackJackController extends Controller {
+class MongoController extends Controller {
 
 	public function strategy() {
 //First create a strategy results
@@ -234,7 +234,6 @@ class BlackJackController extends Controller {
 	}
 
 	public function results() {
-		return "hi";
 		return view('results');
 	}
 
