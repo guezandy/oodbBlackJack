@@ -1,0 +1,52 @@
+deck: [
+	{
+		"suit" : "H",
+		"value" : 10
+	},
+	CONTINUE INSERTING CARDS HERE
+]
+
+strategy_results: {
+	"hands" : 0,
+	"wins" : 0,
+	"losses" : 0,
+	"pushes" : 0,
+	"doubleCount" : 0,
+	"aggregate_wins" : 0,
+	"winlose" : 0,
+	"doubleLosses" : 0,
+	"insert_cards" : 0,
+	"insert_strategy" : 0,
+	"simulation_time" : 0,
+
+	"strategy" : [
+		{
+			"player" : 18,
+			"dealer" : 2,
+			"move" : "stand",
+		},
+		{
+			"player" : 18,
+			"dealer" : 3,
+			"move" : "stand",
+		},
+		CONTINUE IMPUTTING STRATEGY VALUES
+	],
+
+	"hands" : [
+		{
+			"player": 0,
+			"dealer": 0,
+			"results" : {
+				"youstart": 0,
+				"dealerstart" : 0,
+				"youstop" : 0,
+				"dealerstop" : 0,
+				"move" : "s",
+				"didDouble" : 0
+			}
+		},
+		CONTINUE IMPUTTING THE HANDS
+	]
+
+}
