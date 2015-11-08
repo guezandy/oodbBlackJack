@@ -43,7 +43,8 @@ strategy_results: {
 				"youstop" : 0,
 				"dealerstop" : 0,
 				"move" : "s",
-				"didDouble" : 0
+				"didDouble" : 0,
+				"result" : "w"
 			}
 		},
 		CONTINUE IMPUTTING THE HANDS
